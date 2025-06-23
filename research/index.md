@@ -5,40 +5,42 @@ group: research
 ---
 
 <div class="row">
-# Our research
 <div align="justify">
-Bacteriophages (phages) are the most abundant biological entities on the planet and can be viewed as professional manipulators of their host bacteria. In our group, we study how defense mechanisms encoded by bacteria target phages and how phages co-evolve to deal with that pressure. These bacterial “immune systems,” including CRISPR-Cas and restriction enzymes, are among the many fundamental discoveries and biotechnological tools uncovered by studying phage biology. The central mission of the lab is to discover and characterize the molecular determinants that drive phage infection of bacterial hosts. We study bacterial biology through a phage lens. We use a combination of genetic, molecular and biochemical approaches to characterize the arms race between bacteria and phages, with a goal to better understand microbial ecosystems. Furthermore, we hope to make discoveries that will be influential in combatting infectious disease through phage therapy and in developing novel biotechnologies.
+In the Bondy-Denomy Lab, we delve into the intricate molecular battles between bacteria and their viral predators, bacteriophages (phages). Our research focuses on bacterial anti-phage systems—such as CRISPR-Cas, restriction-modification systems, CBASS, Thoeris—and the sophisticated countermeasures phages employ to evade these defenses. Through a combination of genetic, molecular, cell biological, and biochemical approaches, we aim to unravel the complexities of these interactions, shedding light on microbial ecosystems and paving the way for innovative applications in biotechnology and medicine.
+  
+The group focuses phage-host interaction experiments on model organisms with tractable genetics that are also prominent human pathogens, such as Pseudomonas aeruginosa, Listeria monocytogenes, and Escherichia coli. 
 </div>
 <br>
 <br>
 </div>
 
-### Phage-encoded anti-CRISPRs
+### Phage Nucleus and Jumbo Phages
+
 <div class="row">
 <div class="col-md-6 order-md-1">
 <div align="justify">
-The battle between bacteria and phages has led to the evolution of multiple phage resistance mechanisms such as CRISPR-Cas and subsequent counter-resistance mechanisms employed by the phage. While a graduate student in Alan Davidson’s lab, Joe discovered and characterized the first examples of phage-encoded proteins that inhibit CRISPR function, called anti-CRISPRs. These diverse proteins directly bind to and antagonize different CRISPR associated proteins, thus blocking phage targeting. We have focused more recently on understanding how anti-CRISPR proteins are deployed and regulated during phage infection. Additionally, we are interested in understanding why there are so many distinct anti-CRISPRs in closely related phages and what the costs and benefits are to possessing different ones. Finally, we have pioneered new methods for discovery of anti-CRISPR proteins that inhibit CRISPR-Cas9 and Cas12 using bioinformatics and experimentation. In addition to providing valuable new tools for the gene editing community, these discoveries pave the way to understanding why and when CRISPR-Cas fails in nature.
+We investigate the unique strategies of jumbo phages, particularly their formation of endosome-like lipid vesicles and nucleus-like compartments that shield viral DNA from host defenses. Our studies have elucidated biochemical and functional aspects of these compartments, highlighting their role in phage replication and immune evasion.
 </div>
 </div>
 <div class="col-md-6 order-md-2 align-self-center">
-<img class="img-fluid" src="{{ site.baseurl }}/static/img/pub/marino_2020.png">
+<img class="img-fluid" src="{{ site.baseurl }}/static/img/pub/jumbo_diagram.png">
 <!-- <a href="http://www.ucsf.edu"><img class="inline-block navb-icon" src="/jbd-lab.github.io/static/img/ucsf_logo_white.svg" alt="University of California, San Francisco (UCSF) logo"></a> -->
 </div>
 </div>
 
-### CRISPR-Cas regulation
+### Discovery of Novel Defense Systems
 <div class="row">
 <div class="col-md-9 order-md-2 ">
 <div align="justify">
-The early findings that a CRISPR array and the associated Cas genes could be transferred into a heterologous bacterial system and still be functional told us that, in general, these systems are autonomous. Further, with the successful transfer of some CRISPR-Cas systems into human cells and animals, it is quite clear that we understand the basic requirements for CRISPR function. What is poorly understood, however, is how CRISPR-Cas systems are regulated in their native hosts. What are the physiological cues that bacteria receive that can control CRISPR expression? We extensively use Pseudomonas aeruginosa as a model system for Type I CRISPR-Cas systems, but we know nothing about how the factors that control these systems are expressed. This is an especially intriguing question due to a rich literature describing P. aeruginosa possessing more regulatory systems than most bacteria, presumably to equip it for its ‘generalist’ lifestyle, being both a ubiquitous microbe in the environment and a highly drug resistant opportunistic human pathogen. We have identified CRISPR regulatory pathways that inversely controls alginate, a common biofilm polysaccharide. This suggests that surface lifestyle controls CRISPR-Cas expression. We also identified a pirated CRISPR-Cas repressor protein that is encoded by phages and other mobile elements.
+Utilizing bioinformatics and experimental approaches, we uncover previously unrecognized bacterial defense mechanisms and their corresponding phage counter-defenses. We primarily focus on endogenously functional defenses, in the hopes of understanding the true limitations to phage host range. This work expands our understanding of the evolutionary arms race between bacteria and phages and identifies potential new targets for antimicrobial strategies.
 </div>
 </div>
 <div class="col-md-3 order-md-1 align-self-center">
-<img class="img-fluid" src="{{ site.baseurl }}/static/img/pub/borges_2020.png">
+<img class="img-fluid" src="{{ site.baseurl }}/static/img/pub/RM_diagram.png">
 </div>
 </div>
 
-### CRISPR-Cas3 genome editing in microbes and phages
+### Anti-CBASS and Anti-Thoeris Proteins
 <div class="row">
 <div class="col-md-7 order-md-1">
 <div align="justify">
@@ -46,29 +48,38 @@ CRISPR-Cas systems were functionally characterized just 13 years ago as bacteria
 </div>
 </div>
 <div class="col-md-5 order-md-2 align-self-center">
-<img class="img-fluid" src="{{ site.baseurl }}/static/img/pub/csorgo_2020.png">
 </div>
 </div>
 
-### Bacterial pan-immunity
+### Phage Engineering with Cas13
 <div class="row">
 <div class="col-md-6 order-md-2">
 <div align="justify">
-Historically, we have been focused on studying CRISPR-Cas systems in their natural settings, specifically understanding how these systems are regulated and inhibited/evaded by phages. More recently, we have undertaken efforts to study other bacterial immune systems that block phage replication, to better understand their mechanisms and importance for microbial and phage biology. We are focusing on endogenous immune function in our two favorite model human pathogens Pseudomonas aeruginosa and Listeria monocytogenes.
+We are developing novel phage engineering approaches using Cas13 to modify phage genomes in biased and unbiased manners. This technology enables us to study phage gene function at scale and engineer therapeutic phages with tailored properties for translational applications.
 </div>
 </div>
 <div class="col-md-6 order-md-1 align-self-center ">
-<img class="img-fluid" src="{{ site.baseurl }}/static/img/pub/New_immune_overview_032023.png">
 </div>
 </div>
 
-### Phage "nucleus-like" structure
+### Activation of bacterial defense by non-essential phage proteins
 <div class="row">
 <div class="col-md-6 order-md-2 align-self-center">
-<img class="img-fluid" src="{{ site.baseurl }}/static/img/pub/guan_2020.png">
 </div>
 <div class="col-md-6 order-md-1">
 <div align="justify">
-Recent screening efforts in our lab have identified lytic jumbo phages that infect Pseudomonas aeruginosa and are resistant to CRISPR-Cas and restriction enzyme targeting. These phages assemble a remarkable proteinaceous nucleus-like structure during infection, which we have shown is causal for immune evasion. Other phage families also show CRISPR evasion phenotypes, which we are characterizing further. Jumbo phages from the phiKZ family are naturally able to evade destruction by all DNA-targeting immune systems, suggesting that the phage genome doesn’t get exposed to cytoplasmic enzymes from the start of infection, to the end. We are currently focused on dissecting the early events after infection that enable resistance to immune systems and discovering new mechanisms by which Pseudomonas aeruginosa fights back against this phage. As a potent killer of P. aeruginosa, this phage is a strong candidate for phage therapy and is being heavily studied by many labs with this focus. We hope to provide basic molecular insights and phage engineering tools to help this cause.
+Multiple studies in recent years have revealed that common “double bind” that phages experience where inhibitors of one defense system activates another. This explains why all phages don’t simply have all inhibitors. We are interested in how inhibitors limit host range and the molecular mechanisms that explain this phenomenon.
+</div>
+</div>
+
+### Anti-CRISPR Proteins
+
+<div class="row">
+<div class="col-md-6 order-md-2 align-self-center">
+</div>
+<div class="col-md-6 order-md-1">
+<div align="justify">
+Building upon our discovery of the first anti-CRISPR proteins, we continue to identify and characterize these phage-encoded inhibitors. Our recent work has expanded the mechanistic possibilities for anti-CRISPRs including enzymatic modifications, Cas protein and cas mRNA degradation. Understanding these interactions provides insights into phage biology and offers tools for regulating CRISPR-based technologies.
+<img class="img-fluid" src="{{ site.baseurl }}/static/img/pub/Acr_diagram.png">
 </div>
 </div>
