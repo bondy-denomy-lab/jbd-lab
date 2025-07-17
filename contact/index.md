@@ -21,7 +21,7 @@ group: contact
 <div class="col-md-4">
 
   <h4>Joe Bondy-Denomy, Ph.D.</h4>
-  Associate Professor<br>
+  Professor<br>
   [Department of Microbiology and Immunology](https://microbiology.ucsf.edu/)<br>
   School of Medicine<br>
   600 16th Street, Genentech Hall Room N372E<br>
