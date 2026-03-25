@@ -4,8 +4,8 @@ authors: "Polina Muzyukina, Anton Shkaruta, Noemi M. Guzman, Jessica Andreani, *
 journal: 'mSphere'
 pub_date: '2023-11-27'
 image: '/static/img/pub/muzyukina_2023.png'
-pmid: '338009936'
-pdf: '/static/pdf/publications/muzyukina_2023.pdf'
+pmid: '38009936'
+#pdf: '/static/pdf/publications/muzyukina_2023.pdf'
 #zenodo:
 #links:
 #- name: Davidson lab @ University of Toronto

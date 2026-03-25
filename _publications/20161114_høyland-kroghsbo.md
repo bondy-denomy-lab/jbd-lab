@@ -6,7 +6,7 @@ pub_date: '2016-11-14'
 #image: '/static/img/pub/lina_IC_acrs.png'
 pmid: '27849583'
 pmcid: 'PMC5224376'
-pdf: '/static/pdf/publications/høyland-kroghsbo_2016.pdf'
+#pdf: '/static/pdf/publications/høyland-kroghsbo_2016.pdf'
 #links:
 #- name: Davidson lab @ University of Toronto
 #  url: http://individual.utoronto.ca/davidsonlab/Davidson_lab/Home.html

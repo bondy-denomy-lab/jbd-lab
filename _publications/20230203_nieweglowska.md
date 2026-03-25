@@ -5,7 +5,7 @@ journal: 'Nature Communications'
 pub_date: '2023-02-03'
 image: '/static/img/pub/shell.png'
 pmid: '36807264'
-pdf: '/static/pdf/publications/2023-Nieweglowska.pdf'
+#pdf: '/static/pdf/publications/2023-Nieweglowska.pdf'
 #links:
 #- name: Davidson lab @ University of Toronto
 #  url: http://individual.utoronto.ca/davidsonlab/Davidson_lab/Home.html

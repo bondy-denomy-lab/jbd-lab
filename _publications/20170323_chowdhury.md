@@ -6,7 +6,7 @@ pub_date: '2017-03-23'
 #image: '/static/img/pub/lina_IC_acrs.png'
 pmid: '28340349'
 pmcid: 'PMC5478280'
-pdf: '/static/pdf/publications/chowdhury_2017.pdf'
+#pdf: '/static/pdf/publications/chowdhury_2017.pdf'
 #links:
 #- name: Davidson lab @ University of Toronto
 #  url: http://individual.utoronto.ca/davidsonlab/Davidson_lab/Home.html

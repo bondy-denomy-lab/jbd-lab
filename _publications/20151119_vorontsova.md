@@ -6,7 +6,7 @@ pub_date: '2015-11-19'
 #image: '/static/img/pub/lina_IC_acrs.png'
 pmid: '26586803'
 pmcid: 'PMC4678832'
-pdf: '/static/pdf/publications/vorontsova_2015.pdf'
+#pdf: '/static/pdf/publications/vorontsova_2015.pdf'
 #links:
 #- name: Davidson lab @ University of Toronto
 #  url: http://individual.utoronto.ca/davidsonlab/Davidson_lab/Home.html
