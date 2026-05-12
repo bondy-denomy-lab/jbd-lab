@@ -1,4 +1,12 @@
 
+a {
+  color: #005EC2;
+}
+
+a:hover {
+  color: #005EC2;
+}
+
 @media (min-width: 992px) {
    .navbar-collapse {
        display: none !important;
