@@ -36,22 +36,22 @@ The Bondy-Demomy lab welcomes people of any race, ethnicity, religion, national 
                   <a style="overflow-wrap: break-word;" href= "{{member.website}}">{{member.website}}</a> <br>
                 {% endif %}
                 {% if member.orcid %}
-                  <a href="http://orcid.org/{{member.orcid}}"><img class="inline-block mem-icon" src="/static/img/logo/orcid_logo.svg" alt="ORCID"/> {{member.orcid}}</a> <br>
+                  <a href="http://orcid.org/{{member.orcid}}"> <img class="inline-block mem-icon" src="/static/img/logo/orcid_logo.svg" alt="{{member.name}} on ORCID"/></a> <br>
                 {% endif %}
                 {% if member.linkedin %}
-                  <a href="http://www.linkedin.com/in/{{member.linkedin}}"><img class="inline-block mem-icon" src="/static/img/logo/linkedin_logo.svg" alt="LinkedIn"/> {{member.linkedin}}</a> <br>
+                  <a href="http://www.linkedin.com/in/{{member.linkedin}}"> <img class="inline-block mem-icon" src="/static/img/logo/linkedin_logo.svg" alt="{{member.name}} on LinkedIn"/></a> <br>
                 {% endif %}
                 {% if member.UCSF %}
-                  <a href="http://profiles.ucsf.edu/{{member.UCSF}}"><img class="inline-block mem-icon" src="/static/img/logo/ucsf_logo_black.svg" alt="UCSF Profile"/> Profile</a> <br>
+                  <a href="http://profiles.ucsf.edu/{{member.UCSF}}"> <img class="inline-block mem-icon" src="/static/img/logo/ucsf_logo_black.svg" alt="{{member.name}} UCSF Profile"/></a> <br>
                 {% endif %}
                 {% if member.scholar %}
-                  <a href="http://scholar.google.com/citations?user={{member.scholar}}"><img class="inline-block mem-icon" src="/static/img/logo/gscholar_logo.svg" alt="Google Scholar"/> {% if member.timeline_name %}{{ member.timeline_name }}{% else %}{{ member.name | split: " " | first }}{% endif %}'s Citations</a> <br>
+                  <a href="http://scholar.google.com/citations?user={{member.scholar}}"> <img class="inline-block mem-icon" src="/static/img/logo/gscholar_logo.svg" alt="{% if member.timeline_name %}{{ member.timeline_name }}{% else %}{{ member.name | split: " " | first }}{% endif %}'s Google Scholar citations"/></a> <br>
                 {% endif %}
                 {% if member.twitter %}
-                  <a href="http://twitter.com/{{member.twitter}}"><img class="inline-block mem-icon" src="/static/img/logo/twitter_logo.svg" alt="Twitter"/> @{{member.twitter}}</a> <br>
+                  <a href="http://twitter.com/{{member.twitter}}"> <img class="inline-block mem-icon" src="/static/img/logo/twitter_logo.svg" alt="{{member.name}} on Twitter"/></a> <br>
                 {% endif %}
                 {% if member.github %}
-                  <a href="http://github.com/{{member.github}}"><img class="inline-block mem-icon" src="/static/img/logo/github_logo.svg" alt="GitHub"/> {{member.github}}</a> <br>
+                  <a href="http://github.com/{{member.github}}"> <img class="inline-block mem-icon" src="/static/img/logo/github_logo.svg" alt="{{member.name}} on GitHub"/></a> <br>
                 {% endif %}
             </div>
             <div class="col-sm-8">
