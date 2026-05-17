@@ -47,28 +47,23 @@ Subsequently: {{member.subsequent}} <br>
 {% endif %}
 
 {% if member.orcid %}
-<a href="http://orcid.org"><img class="inline-block mem-icon" src="{{ site.baseurl }}/static/img/logo/orcid_logo.svg"></a>
-<a href="http://orcid.org/{{member.orcid}}"> {{member.orcid}}</a> <br>
+<a href="http://orcid.org/{{member.orcid}}"> <img class="inline-block mem-icon" src="{{ site.baseurl }}/static/img/logo/orcid_logo.svg" alt="{{member.name}} on ORCID"/></a> <br>
 {% endif %}
 
 {% if member.linkedin %}
-<a href="http://www.linkedin.com"><img class="inline-block mem-icon" src="{{ site.baseurl }}/static/img/logo/linkedin_logo.svg"></a>
-<a href= "http://www.linkedin.com/in/{{member.linkedin}}"> {{member.linkedin}} </a> <br>
+<a href="http://www.linkedin.com/in/{{member.linkedin}}"> <img class="inline-block mem-icon" src="{{ site.baseurl }}/static/img/logo/linkedin_logo.svg" alt="{{member.name}} on LinkedIn"/></a> <br>
 {% endif %}
 
 {% if member.scholar %}
-<a href="http://scholar.google.com"><img class="inline-block mem-icon" src="{{ site.baseurl }}/static/img/logo/gscholar_logo.svg"></a>
-<a href= "http://scholar.google.com/citations?user={{member.scholar}}"> {% if member.timeline_name %}{{ member.timeline_name }}{% else %}{{ member.name | split: " " | first }}{% endif %}'s Citations </a> <br>
+<a href="http://scholar.google.com/citations?user={{member.scholar}}"> <img class="inline-block mem-icon" src="{{ site.baseurl }}/static/img/logo/gscholar_logo.svg" alt="{% if member.timeline_name %}{{ member.timeline_name }}{% else %}{{ member.name | split: " " | first }}{% endif %}'s Google Scholar citations"/></a> <br>
 {% endif %}
 
 {% if member.twitter %}
-<a href="http://twitter.com"><img class="inline-block mem-icon" src="{{ site.baseurl }}/static/img/logo/twitter_logo.svg"></a>
-<a href= "http://twitter.com/{{member.twitter}}"> @{{member.twitter}} </a> <br>
+<a href="http://twitter.com/{{member.twitter}}"> <img class="inline-block mem-icon" src="{{ site.baseurl }}/static/img/logo/twitter_logo.svg" alt="{{member.name}} on Twitter"/></a> <br>
 {% endif %}
 
 {% if member.github %}
-<a href="http://github.com"><img class="inline-bloc mem-icon" src="{{ site.baseurl }}/static/img/logo/github_logo.svg"></a>
-<a href= "http://github.com/{{member.github}}"> {{member.github}} </a> <br>
+<a href="http://github.com/{{member.github}}"> <img class="inline-block mem-icon" src="{{ site.baseurl }}/static/img/logo/github_logo.svg" alt="{{member.name}} on GitHub"/></a> <br>
 {% endif %}
 </p>
 </div>

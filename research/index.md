@@ -24,7 +24,7 @@ We investigate the unique strategies of jumbo phages, particularly their formati
 </div>
 </div>
 <div class="col-md-6 order-md-2 align-self-center">
-<img class="img-fluid" src="{{ site.baseurl }}/static/img/pub/jumbo_diagram.png">
+<img class="img-fluid" src="{{ site.baseurl }}/static/img/pub/jumbo_diagram.png" alt="Diagram of jumbo phage nucleus-like compartment shielding viral DNA from host defenses"/>
 <!-- <a href="http://www.ucsf.edu"><img class="inline-block navb-icon" src="/jbd-lab.github.io/static/img/ucsf_logo_white.svg" alt="University of California, San Francisco (UCSF) logo"></a> -->
 </div>
 </div>
@@ -37,7 +37,7 @@ Utilizing bioinformatics and experimental approaches, we uncover previously unre
 </div>
 </div>
 <div class="col-md-6 order-md-1 align-self-center">
-<img class="img-fluid" src="{{ site.baseurl }}/static/img/pub/RM_diagram.png">
+<img class="img-fluid" src="{{ site.baseurl }}/static/img/pub/RM_diagram.png" alt="Diagram of bacterial restriction-modification defense systems and phage counter-defenses"/>
 </div>
 </div>
 
@@ -58,7 +58,7 @@ We are developing novel phage engineering approaches using Cas13 to modify phage
 </div>
 </div>
 <div class="col-md-6 order-md-2 align-self-center">
-<img class="img-fluid" src="{{ site.baseurl }}/static/img/pub/csorgo_2020.png">
+<img class="img-fluid" src="{{ site.baseurl }}/static/img/pub/csorgo_2020.png" alt="Figure from Csorgo et al. 2020 illustrating Cas13-based phage genome engineering"/>
 </div>
 </div>
 
@@ -79,6 +79,6 @@ Building upon our discovery of the first anti-CRISPR proteins, we continue to id
 </div>
 </div>
 <div class="col-md-6 order-md-1 align-self-center">
-<img class="img-fluid" src="{{ site.baseurl }}/static/img/pub/Acr_diagram.png">
+<img class="img-fluid" src="{{ site.baseurl }}/static/img/pub/Acr_diagram.png" alt="Diagram of anti-CRISPR proteins inhibiting bacterial CRISPR-Cas immune systems"/>
 </div>
 </div>
